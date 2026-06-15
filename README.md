@@ -5,24 +5,56 @@
 </div>
 
 ```
+Last login: Mon Jun 15 2026 17:42:33 from 0.0.0.0
+```
+
+```
 ┌──────────────────────────────────────────────────────────────────────────┐
 │                                                                          │
 │   session   tabishraza302@github                                         │
 │   role      full-stack builder · security researcher · AI-native         │
 │   base      New Delhi, India                                             │
-│   status    building HearHelp ──▶ breaking things ──▶ learning the rest  │
+│   rank      TryHackMe Top 1%                                             │
 │                                                                          │
 └──────────────────────────────────────────────────────────────────────────┘
 ```
 
 ```
-tabish@github:~$ cat stack.conf
+tabish@github:~$ ps aux | grep active
 
-   frontend   ──  React · Next.js · TypeScript · Tailwind CSS
-   backend    ──  Node.js · Express · Python · REST APIs
-   infra      ──  MongoDB · MySQL · Docker · GitHub Actions
-   security   ──  Burp Suite · Metasploit · Nmap · Wireshark · Nessus
-   ai         ──  Claude · Cursor · Copilot · Codex
+   PID   PROCESS          DESCRIPTION
+   001   hearhelp         building end-to-end hearing care platform
+   002   portfolio        terminal-themed portfolio · SSH boot sequence
+   003   ctf-lab          TryHackMe · HackTheBox · weekend grind
+```
+
+```
+tabish@github:~$ tree stack/
+
+   stack/
+   ├── frontend/
+   │   ├── languages    TypeScript · JavaScript
+   │   ├── frameworks   React · Next.js
+   │   └── styling      Tailwind CSS
+   │
+   ├── backend/
+   │   ├── runtime      Node.js · Python
+   │   ├── frameworks   Express, Fast API
+   │   └── tooling      REST APIs · Postman
+   │
+   ├── infra/
+   │   ├── databases    MongoDB · MySQL, Postgress
+   │   ├── containers   Docker
+   │   ├── ci/cd        GitHub Actions
+   │   └── os           Linux, windows, macOS
+   │
+   ├── security/
+   │   ├── web          Burp Suite · OWASP tooling
+   │   ├── network      Nmap · Wireshark · Scapy
+   │   └── exploit      Metasploit · Nessus
+   │
+   └── ai/
+       └── agents       Claude · Cursor · Copilot · Codex
 ```
 
 ```
@@ -36,7 +68,7 @@ tabish@github:~$ ls -la builds/
 ```
 tabish@github:~$ cat builds/*/README
 
-   ┌─[ HearHelp ]──────────────────────────────────────────── status: ACTIVE ─┐
+   ┌─[ HearHelp ]──────────────────────────────────────────── status: ACTIVE ──┐
    │                                                                           │
    │  Complete hearing care — tests, audiologist discovery, marketplace,       │
    │  post-purchase care, payments, real-time messaging.                       │
@@ -46,7 +78,7 @@ tabish@github:~$ cat builds/*/README
    │                                                                           │
    └───────────────────────────────────────────────────────────────────────────┘
 
-   ┌─[ SecureScan ]────────────────────────────────────────────── status: LAB ─┐
+   ┌─[ SecureScan ]────────────────────────────────────────────── status: LAB ──┐
    │                                                                            │
    │  Real-time threat detection — browser extension, dashboard,                │
    │  backend APIs, intel via VirusTotal + URLScan.                             │
@@ -56,7 +88,7 @@ tabish@github:~$ cat builds/*/README
    │                                                                            │
    └────────────────────────────────────────────────────────────────────────────┘
 
-   ┌─[ DualSentinel ]──────────────────────────────────────────── status: LAB ─┐
+   ┌─[ DualSentinel ]──────────────────────────────────────────── status: LAB ──┐
    │                                                                            │
    │  Offensive + defensive tooling — network analysis, threat simulation,      │
    │  defense automation experiments.                                           │
@@ -68,12 +100,21 @@ tabish@github:~$ cat builds/*/README
 ```
 
 ```
+tabish@github:~$ git log --oneline --reverse
+
+   4f1a2b3  started B.Tech IT, New Delhi
+   9c3b5d2  ranked Top 1% on TryHackMe
+   2e8f1a4  shipped SecureScan + DualSentinel, security tooling
+   1b5e2d8  founded HearHelp — hearing care startup
+```
+
+```
 tabish@github:~$ cat .principles
 
    [01]  ship > polish forever
    [02]  debug with evidence, not assumptions
    [03]  read the system before changing it
-   [04]  build with depth — useful to users, readable to devs, honest about tradeoffs
+   [04]  build with depth, useful to users, readable to devs, honest about tradeoffs
    [05]  if it runs, understand why. if it breaks, understand how.
 ```
 
@@ -83,6 +124,17 @@ tabish@github:~$ cat connect.txt
    ▸  blog.tabishraza.tech
    ▸  linkedin.com/in/tabishraza302
    ▸  github.com/tabishraza302
+```
+
+```
+tabish@github:~$ git status
+
+   On branch: main
+   Changes in progress:
+      modified:   hearhelp/
+      modified:   portfolio/
+
+   Nothing to commit. Everything to build.
 ```
 
 ```
