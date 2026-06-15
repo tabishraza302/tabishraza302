@@ -73,7 +73,7 @@ tabish@github:~$ cat builds/*/README
    │  Complete hearing care — tests, audiologist discovery, marketplace,       │
    │  post-purchase care, payments, real-time messaging.                       │
    │                                                                           │
-   │  stack  ▸  TypeScript · React · Node.js · MongoDB · Razorpay              │
+   │  stack  ▸  TypeScript · React · Node.js · MongoDB MySQL · Postgress       │
    │  repo   ▸  private · case study incoming                                  │
    │                                                                           │
    └───────────────────────────────────────────────────────────────────────────┘
